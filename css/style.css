@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px 4px;
+    width: 100%;
+    height: 75px;
+    align-items: center;
+}
+
+
+header img {
+    width: 40px;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    /*saco subrayado*/
+    color: black;
+    margin: 10px;
+
+}
+
+
+main {
+    background-color: #CECAB2;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+.bienvenidos {
+    position: relative;
+    height: 100vh;
+    background-image: url(../assets/recortada.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.bienvenidos h1 {
+    font-size: 3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bienvenidos img {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .bienvenidos h1 {
+        font-size: 2em;
+    }
+
+    .bienvenidos img {
+        display: block;
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+    }
+}
+
+.boton {
+    color: black;
+    background-color: lightgray;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.flexboxDos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+}
+
+.flexboxTres {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+}
+
+.flexboxCuatro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+    word-spacing: 5px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.piedepagina {
+    display: grid;
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: (1, 1fr);
+}
+
+.camion {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    align-self: center;
+    justify-self: center;
+}
+
+.pago {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+.redes {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    justify-self: center;
+}

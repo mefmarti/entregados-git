@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px 4px;
+    width: 100%;
+    height: 75px;
+    align-items: center;
+}
+
+header img {
+    width: 40px;
+}
+
+.barraProductos {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.barraProductos li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+main {
+    display: grid;
+    width: 100%;
+    height: 3000px;
+    background-color: #CECAB2;
+    gap: 10px;
+    column-gap: 100px;
+}
+
+.filaUno {
+    display: grid;
+    width: 100%;
+    height: 100px;
+    background-color: #CECAB2;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: (1, 1fr);
+    text-align: center;
+}
+
+.boton {
+    color: black;
+    background-color: lightgray;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.uno {
+    max-width: 100%;
+}
+
+
+.dos {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+.tres {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    justify-self: center;
+}
+
+.filaDos {
+    display: grid;
+    width: 100%;
+    height: 100px;
+    background-color: #CECAB2;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: (1, 1fr);
+    text-align: center;
+}
+
+.cuatro {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 1;
+    align-self: center;
+    justify-self: center;
+}
+
+.cinco {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+.seis {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    justify-self: center;
+}
+
+.filaTres {
+    display: grid;
+    width: 100%;
+    height: 100px;
+    background-color: #CECAB2;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: (1, 1fr);
+    text-align: center;
+}
+
+.siete {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    align-self: center;
+    justify-self: center;
+}
+
+.ocho {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+.nueve {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    justify-self: center;
+}
+
+.filaCuatro {
+    display: grid;
+    width: 100%;
+    height: 100px;
+    background-color: #CECAB2;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: (1, 1fr);
+    text-align: center;
+}
+
+.diez {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    align-self: center;
+    justify-self: center;
+}
+
+.once {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+.doce {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    justify-self: center;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.piedepagina {
+    display: grid;
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: (1, 1fr);
+}
+
+.camion {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    align-self: center;
+    justify-self: center;
+}
+
+.pago {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+.redes {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    justify-self: center;
+}
