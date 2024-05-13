@@ -4,30 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mariju</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <header>
-        <a href=""><img src="./assets2/logo.png" alt=""></a>
-        <nav>
-            <ul class="navbar">
-                <li><a href="inicio.html">INICIO</a></li>
-                <li><a href="productos.html">PRODUCTOS</a></li>
-                <li><a href="contacto.html">CONTACTO</a></li>
-                <li><a href="ingresar.html">INGRESAR</a></li>
-                <li><a href="registrarse.html">REGISTRATE</a></li>
-            </ul>
+        <a href="/index.html"><img src="./assets/logo.png" alt=""></a>
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu">
+            &#8801
+        </label>
+        <nav class="navbar">
+            <a href="index.html">INICIO</a>
+            <a href="./pages/productos.html">PRODUCTOS</a>
+            <a href="./pages/contacto.html">CONTACTO</a>
+            <a href="./pages/ingresar.html">INGRESAR</a>
+            <a href="./pages/registrarse.html">REGISTRATE</a>
+            <label for="check" class="esconder-menu">
+                &#215
+            </label>
         </nav>
-        <div>
-            <a href="carrito"><img src="./assets/carrito-de-compras.png" alt=""></a>
-        </div>
     </header>
     <main>
-        <section class="bienvenidos">
-            <h1>BIENVENIDOS A MARUJI DELICIAS</h1>
-            <img src="./assets/recortada.jpg" alt="">
+        <section id="bienvenidos">
+            <div class="contenido-banner">
+                <h1>BIENVENIDOS A MARUJI DELICIAS</h1>
+                <img src="" alt="">
+            </div>
         </section>
         <section class="flexboxDos">
             <article class="seccionLemonTexto">
@@ -56,7 +60,7 @@
                 <button class="boton">COMRPAR</button>
             </article>
             <article class="fotoTartaCabsha">
-                <a href="tarta cabsha"><img src="./assets/tartacabsha.png" alt=""></a>
+                <a href="tarta cabsha"><img src="./assets/cabshaa.png" alt=""></a>
             </article>
         </section>
     </main>
