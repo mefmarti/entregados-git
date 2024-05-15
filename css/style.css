@@ -1,124 +1,9 @@
-* {
+*{ 
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 50px;
-    align-items: center;
-    background: #ffffff;
-}
-
-
-header img {
-    width: 40px;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: black;
-    margin: 10px;
-    text-transform: uppercase;
-    transition: 0, 4s;
-    padding: 0 10px;
-}
-
-.mostrar-menu,
-.esconder-menu {
-    font-size: 30px;
-    cursor: pointer;
-    display: none;
-    transition: 0.4s;
-}
-
-.mostrar-menu {
-    order: 1;
-}
-
-.navbar a:hover,
-.mostrar-menu:hover,
-.esconder-menu:hover {
-    color: pink;
-}
-
-#check {
-    display: none;
-}
-
-#bienvenidos {
-    padding: 0 50px;
-    background-image: url(../assets/recortada.jpg);
-    height: 45vh;
-    background-size: cover;
-    background-position: center;
-}
-
-#bienvenidos::before {
-    content: ¨;
-    background: rgba(77, 77, 92, 0.6);
-    position: absolute;
-    width: 100%;
-    height: 45vh;
-    left: 0;
-}
-
-.contenido-banner{
-    position: relative;
-    color: #ffffff;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.contenido-banner h1{
-    font-size: 30px;
-    height: 100%;
-    padding: 10px 0px;
-}
-
-@media(max-width: 768px) {
-
-    .mostrar-menu,
-    .esconder-menu {
-        display: block;
-    }
-
-    .navbar {
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: #ffffff;
-        right: -100%;
-        top: 0;
-        text-align: center;
-        padding: 100px 0px;
-        z-index: 100;
-        transition: 0.8s;
-
-    }
-
-    .navbar a {
-        display: block;
-        padding: 20px;
-    }
-
-    .esconder-menu {
-        position: absolute;
-        top: 40px;
-        right: 40px;
-    }
-
-    #check:checked~.navbar {
-        right: 0;
-    }
-}
-
-main {
-    background-color: #CECAB2;
-}
 
 body,
 html {
@@ -126,43 +11,14 @@ html {
     padding: 0;
 }
 
-
-.bienvenidos {
-    position: relative;
-    height: 100vh;
-    background-image: url(../assets/recortada.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
+.carousel-caption h2{
+    text-transform: uppercase;
     align-items: center;
-    text-align: center;
-    color: white;
+    
 }
 
-.bienvenidos h1 {
-    font-size: 3em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.bienvenidos img {
-    display: none;
-}
-
-@media (max-width: 768px) {
-    .bienvenidos h1 {
-        font-size: 2em;
-    }
-
-    .bienvenidos img {
-        display: block;
-        width: 100%;
-        max-width: 600px;
-        height: auto;
-    }
+main{
+    background-color: #CECAB2;
 }
 
 .boton {
