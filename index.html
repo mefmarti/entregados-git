@@ -4,127 +4,284 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mariju</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Delicias</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-
-            <div class="container">
-                <a href="#" class="navbar-brand"><span class="text-primary">MARIJU</span>DELICIAS</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-start"
-                    aria-controls="navbar-start" aria-expanded="false" aria-label="Toggel navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbar-start">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/index.html">INICIO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/productos.html">PRODUCTOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/ingresar.html">INGRESAR</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/registrarse.html">REGISTRARSE</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
-                        </li>
-                    </ul>
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="customer-support">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <div class="content-customer-support">
+                        <span class="text">Soporte al cliente</span>
+                        <span class="number">2625632882</span>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div id="carouselE1" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-idicators">
-                <button type="button" data-bs-target="#carouselE1"
-                        data-bs-slide-to="0" class="active" aria-current="true"
-                        aria-label="Silde 1"
-                ></button>
-                <button type="button" data-bs-target="#carouselE1"
-                        data-bs-slide-to="1" aria-current="true"
-                        aria-label="Silde 2"
-                ></button>
-                <button type="button" data-bs-target="#carouselE1"
-                        data-bs-slide-to="2" aria-current="true"
-                        aria-label="Silde 3"
-                ></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./assets/recortada.jpg" class="d-block w-100" alt="">
-                    <div class="carousel-caption">
-                        <h2>BIENVENIDOS A MARIJU</h2>
+                <div class="container-logo">
+                    <i class="fa-solid fa-cookie-bite"></i>
+                    <h1 class="logo"><a href="/index.html">Mariju Delicias</a></h1>
+                </div>
+                <div class="container-user">
+                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <div class="content-shopping-cart">
+                        <span class="text">Carrito</span>
+                        <span class="number">(0)</span>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="container-navbar">
+            <nav class="navbar container">
+                <i class="fa-solid fa-bars"></i>
+                <ul class="menu">
+                    <li><a href="#"></a>Inicio</li>
+                    <li><a href="#"></a>Productos</li>
+                    <li><a href="#"></a>Ingresar</li>
+                    <li><a href="#"></a>Registrarse</li>
+                    <li><a href="#"></a>Contacto</li>
+                </ul>
+                <form class="search-form">
+                    <input type="search" placeholder="Buscar...">
+                    <button class="btn-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </nav>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="content-banner">
+            <p>Endulzá tu día</p>
+            <h2>100% Artesanal <br>Envios sin costo</h2>
+            <a href="#">Comprar ahora</a>
+        </div>
+    </section>
+    <main class="main-content">
+        <section class="container-container-features">
+            <div class="card-feature">
+                <i class="fa-solid fa-truck"></i>
+                <div class="feature-content">
+                    <span>Envíos gratuitos a zona centro</span>
+                    <p>En pedido superior a $10.000</p>
+                </div>
+            </div>
+            <div class="card-feature">
+                <i class="fa-solid fa-gift"></i>
+                <div class="feature-content">
+                    <span>Tarjeta de regalo especial</span>
+                    <p>Pedi la tarjeta de regalo especial</p>
+                </div>
+            </div>
+            <div class="card-feature">
+                <i class="fa-solid fa-headset"></i>
+                <div class="feature-content">
+                    <span>Atención personalizada</span>
+                    <p>De Lunes A Viernes de 8:30 a 14.30hs</p>
+                </div>
+            </div>
         </section>
-        <section class="flexboxDos">
-            <article class="seccionLemonTexto">
-                <h2>LEMON PIE</h2>
-                <p>Tarta artesanal con limones frescos</p>
-                <button class="boton">COMRPAR</button>
-            </article>
-            <article class="seccionFotoLemon">
-                <a href="lemon pie"><img src="./assets/Sintítulo.png" alt=""></a>
-            </article>
-        </section>
-        <section class="flexboxTres">
-            <article class="fotoTartaFrutal">
-                <a href="tarta frutal"><img src="./assets/tartafrutal.png" alt=""></a>
-            </article>
-            <article class="tartaFrutal">
-                <h2>TARTA FRUTAL</h2>
-                <p>Tarta artesanal con frutas de estacion a elección</p>
-                <button class="boton">COMRPAR</button>
-            </article>
-        </section>
-        <section class="flexboxCuatro">
-            <article class="tartaCabsha">
-                <h2>TARTA CABSHA</h2>
-                <p>Tarta artesanal con chocolate cabsha y masa de chocolate</p>
-                <button class="boton">COMRPAR</button>
-            </article>
-            <article class="fotoTartaCabsha">
-                <a href="tarta cabsha"><img src="./assets/cabshaa.png" alt=""></a>
-            </article>
+
+
+        <section class="container top-products">
+            <h1 class="heading-1">Mejores Productos</h1>
+
+            <div class="container-options">
+                <span class="active">Destacados</span>
+                <span>Más recientes</span>
+                <span>Más vendidos</span>
+            </div>
+
+            <div class="container-products">
+                <!--producto 1-->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="/assets/lemon.png" alt="Lemon Pie">
+                        <span class="discount">-13%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="starts">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Lemon Pie</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$9.500 <span>$7.900</span></p>
+                    </div>
+                </div>
+                <!--producto 2-->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="/assets/frutilla.png" alt="Tarta de Frutillas">
+                        <span class="discount">-13%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="content-card-product">
+                        <div class="starts">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Tarta de Frutillas</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$9.500 <span>$7.900</span></p>
+                    </div>
+                </div>
+                <!--producto 3-->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="/assets/mixtartas.png" alt="Mix de Tartas">
+                        <span class="discount">-13%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="content-card-product">
+                        <div class="starts">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Mix de Tartas</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$9.500 <span>$7.900</span></p>
+                    </div>
+                </div>
+                <!--producto 4-->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="/assets/brownie.png" alt="brownie">
+                        <span class="discount">-13%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="content-card-product">
+                        <div class="starts">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Brownie</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$9.500 <span>$7.900</span></p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-    <footer>
-        <section class="piedepagina">
-            <article class="envio">
-                <a href="camion"><img src="./assets/camion-de-carga.png" alt=""></a>
-                <h2>ENVIOS A DOMICILIO</h2>
-                <h3>Hace tu pedido y te lo entregamos en 48 horas.</h3>
-            </article>
-            <article class="pago">
-                <a href="pago"><img src="./assets/tarjeta-de-credito.png" alt=""></a>
-                <h2>PAGA COMO QUIERAS</h2>
-                <h3>Paga con Mercado Pago o transferencia.</h3>
-            </article>
-            <article class="redes">
-                <h2>REDES SOCIALES</h2>
-                <a href="face"><img src="./assets/facebook.png" alt=""></a>
-                <a href="wsp"><img src="./assets/whatsapp.png" alt=""></a>
-            </article>
-        </section>
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info">
+                    <p class="title-footer">Informacion de contacto</p>
+                    <ul>
+                        <li>Dirección: L Ponce 1025, G Alvear, Mza</li>
+                        <li>Teléfono: 2625632882</li>
+                        <li>Instagram: marijudelicias</li>
+                        <li>Email: marijudelicias@gmail.com</li>
+                    </ul>
+                    <div class="social-icons">
+                        <span class="facebook"><i class="fa-brands fa-facebook-f"></i></span>
+                        <span class="whatsapp"><i class="fa-brands fa-whatsapp"></i></span>
+                        <span class="instagram"><i class="fa-brands fa-instagram"></i></span>
+                        <span class="youtube"><i class="fa-brands fa-youtube"></i></span>
+                        <span class="twitter"><i class="fa-brands fa-twitter"></i></span>
+                    </div>
+                </div>
+                <div class="information">
+                    <p class="title-footer">Información</p>
+                    <ul>
+                        <li><a href="#">Acerca de Nosotros</a></li>
+                        <li><a href="#">Información Delivery</a></li>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Políticas de Privacidad</a></li>
+                        <li><a href="#">Contáctanos</a></li>
+                    </ul>
+                </div>
+                <div class="my-account">
+                    <p class="title-footer">Mi cuenta</p>
+                    <ul>
+                        <li><a href="#">Mi cuenta</a></li>
+                        <li><a href="#">Historial de ordenes</a></li>
+                        <li><a href="#">Favoritos</a></li>
+                        <li><a href="#">Medios de pago</a></li>
+                    </ul>
+                </div>
+                <div class="newsletter">
+                    <p class="title-footer">Información</p>
+                    <div class="content">
+                        <p>Suscribete y mantente al día con las nuevas recetas y ofertas exclusivas</p>
+                        <input type="email" placeholder="Ingresa el correo aquí...">
+                        <button>Suscríbete</button>
+                    </div>
+                </div>
+            </div>
+            <div class="copyrigth">
+                <p>Desarrollado por Florencia Martin &copy; 2024</p>
+            </div>
+        </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
