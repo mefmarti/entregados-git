@@ -1,0 +1,85 @@
+@media (max-width: 768px) {
+    html {
+        font-size: 55%;
+    }
+
+    .hero {
+        padding: 2rem;
+    }
+
+    .customer-support {
+        display: none;
+    }
+
+    .content-shopping-cart {
+        display: none;
+    }
+
+    .navbar {
+        padding: 1rem 2rem;
+
+        .fa-bars {
+            display: block;
+            color: #fff;
+            font-size: 3rem;
+        }
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .content-banner {
+        max-width: 50rem;
+        margin: 0 auto;
+        padding: 25rem 0;
+    }
+
+    .container-container-features {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 3rem 2rem;
+    }
+
+    .card-feature {
+        padding: 2rem;
+    }
+
+    .heading-1 {
+        font-size: 2.4rem;
+    }
+
+    .card-category {
+        height: 12rem;
+        font-size: 2rem;
+        text-align: center;
+        line-height: 1;
+
+        span {
+            font-size: 1.4rem;
+        }
+    }
+
+    .container-options {
+        align-items: center;
+
+        span {
+            text-align: center;
+            padding: 1rem 2rem;
+        }
+    }
+
+    .container-products {
+        grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    }
+
+    .menu-footer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .copyright {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+}
